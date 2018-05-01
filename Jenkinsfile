@@ -6,7 +6,7 @@ pipeline {
         echo 'Hello World!'
       }
     }
-    stage('') {
+    stage('Java Version') {
       steps {
         sh '''pipeline {
    agent any
